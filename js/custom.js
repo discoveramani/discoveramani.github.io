@@ -106,6 +106,19 @@
             slideSpeed: 300
         });
 
+        //Home Carousel	
+
+        $("#owl-home").owlCarousel({
+            singleItem: true,
+            autoPlay: 5000,
+            transitionStyle: "fade",
+            autoHeight: false,
+            slideSpeed: 200,
+            navigation: false,
+            pagination: true,
+            paginationSpeed: 500,
+            responsiveRefreshRate: 200
+        });
 
         //Facts Counter
 
