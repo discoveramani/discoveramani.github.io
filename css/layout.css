@@ -434,6 +434,332 @@ body.royal_preloader {
     opacity: .85;
 }
 
+.parallax-title-top {
+    background: url('../images/type.png') repeat fixed;
+    background-size: 200px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+
+/* #About page
+================================================== */
+
+.about-text {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.about-text p {
+    text-align: center;
+}
+
+.about-mission {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-mission:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-half {
+    width: 50%;
+    background: #181818;
+}
+
+.about-quarter-1 {
+    width: 25%;
+    background: #050505;
+}
+
+.about-quarter-2 {
+    width: 25%;
+}
+
+.about-half,
+.about-quarter-1,
+.about-quarter-2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.about-text-in {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.about-half h4,
+.about-quarter-1 h4 {
+    text-align: left;
+    padding-bottom: 15px;
+    color: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-half p,
+.about-quarter-1 p,
+.about-quarter-2 p {
+    text-align: left;
+    color: #f9f9f9;
+    font-style: italic;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-quarter-2 h4 {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 34px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-link {
+    position: relative;
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 30px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.about-link:hover {
+    background: #fff;
+}
+
+.team-box-1 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.team-box-1 img {
+    width: 100%;
+    display: block;
+}
+
+.team-box-1 .mask-team {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: calc(100% - 74px);
+    opacity: 0;
+    background: rgba(0, 0, 0, .7);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.team-box-1:hover .mask-team {
+    opacity: 1;
+}
+
+.team-box-1 ul {
+    position: absolute;
+    z-index: 3;
+    top: -30px;
+    margin-top: -46px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.team-box-1 ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.team-box-1:hover ul {
+    top: 50%;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.team-box-1 ul li a.social-icon .icons {
+    font-family: 'FontAwesome';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.team-box-1 ul li a.social-icon:hover .icons.twitter {
+    color: #55acef;
+}
+
+.team-box-1 ul li a.social-icon:hover .icons.dribbble {
+    color: #fe0084;
+}
+
+.team-box-1 ul li a.social-icon:hover .icons.facebook {
+    color: #3b5998;
+}
+
+.team-box-1 ul li a.social-icon:hover .icons.linkedin {
+    color: #007bb5;
+}
+
+.team-box-1 ul li a.social-icon:hover .icons.vimeo {
+    color: #aad450;
+}
+
+.team-box-1 h6 {
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.team-box-1 .subtext {
+    text-align: center;
+    color: #747474;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#owl-about {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#owl-about .item {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#owl-about .item img {
+    width: 100%;
+    display: block;
+}
+
+#owl-about.owl-theme .owl-controls .owl-buttons .owl-prev {
+    background-image: url('../images/arrow-left-light.png');
+    left: 0;
+    margin-top: -35px;
+}
+
+#owl-about.owl-theme .owl-controls .owl-buttons .owl-next {
+    background-image: url('../images/arrow-right-light.png');
+    right: 0;
+    margin-top: -35px;
+}
+
+#owl-about.owl-theme .owl-controls .owl-buttons .owl-next,
+#owl-about.owl-theme .owl-controls .owl-buttons .owl-prev {
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    height: 70px;
+    z-index: 100;
+    text-indent: 100%;
+    background-size: 8px 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, .7);
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+#owl-about.owl-theme .owl-controls .owl-buttons .owl-next:hover,
+#owl-about.owl-theme .owl-controls .owl-buttons .owl-prev:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#owl-logos {
+    position: relative;
+    width: calc(100% - 30px);
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#owl-logos .item {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#owl-logos .item img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Abhishek Patel
+================================================== */
+
 
 /* #Navigation
 ================================================== */
