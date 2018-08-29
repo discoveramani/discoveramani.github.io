@@ -86,15 +86,15 @@ Table of contents
 }
 
 #owl-home .item.background-home-image-1 {
-    background-image: url('../images/categories-slider-1.jpg');
+    background-image: url('../images/cat-page-slider-1.jpg');
 }
 
 #owl-home .item.background-home-image-2 {
-    background-image: url('../images/categories.jpg');
+    background-image: url('../images/categories-slider-2.jpg');
 }
 
 #owl-home .item.background-home-image-3 {
-    background-image: url('../images/home-3.jpg');
+    background-image: url('../images/categories-slider-3.jpg');
 }
 
 #owl-home.owl-theme .owl-controls {
@@ -137,7 +137,7 @@ Table of contents
 
 .home-mask {
     position: absolute;
-    background: #212121;
+    background: #21212170;
     opacity: .8;
     width: 100%;
     height: 100%;
@@ -1041,7 +1041,7 @@ ul.slimmenu.collapsed li>ul {
 
 .home-mask {
     position: absolute;
-    background: #212121;
+    background: #21212170;
     opacity: .8;
     width: 100%;
     height: 100%;
@@ -1320,6 +1320,14 @@ ul.slimmenu.collapsed li>ul {
         background-size: cover;
         background-attachment: scroll;
         background-position: top center!important;
+    }
+    #main-slider {
+        position: relative;
+        width: 100%;
+        display: block;
+        height: 100vh;
+        background-size: cover;
+        background-position: 531px 23px !important;
     }
 }
 
@@ -1945,7 +1953,7 @@ figure.youtube a img {
 ================================================== */
 
 .parallax-2 {
-    background: url('../images/parallax-2.jpg') repeat fixed;
+    background: url('../images/contact.jpg') repeat fixed;
     background-size: cover;
     position: absolute;
     top: 0;

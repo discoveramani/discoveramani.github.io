@@ -135,8 +135,8 @@
 
         //Set your google maps parameters
 
-        var latitude = 44.8013716,
-            longitude = 20.4631372,
+        var latitude = 51.507368,
+            longitude = -0.127717,
             map_zoom = 15;
 
         //google map custom marker icon - .png fallback for IE11
