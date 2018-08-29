@@ -6,13 +6,14 @@
 
     Royal_Preloader.config({
         mode: 'logo',
-        logo: 'images/loader.svg',
-        logo_size: [100, 100],
+        logo: 'images/logo-white.svg',
+        logo_size: [292, 257],
         showProgress: true,
         showPercentage: true,
         text_colour: '#f8f8f8',
         background: '#212121'
     });
+
 
 
     //Navigation	
