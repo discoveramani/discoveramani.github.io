@@ -36,6 +36,30 @@ Table of contents
 
 /* Abhishek Patel Edits */
 
+@import 'https://fonts.googleapis.com/css?family=Parisienne&subset=latin-ext';
+.title-3x h3 {
+    color: #cfa144 !important;
+    width: 100%;
+    height: 50%;
+    font-family: 'Parisienne', cursive;
+    font-size: 56px !important;
+    line-height: 22px !important;
+    letter-spacing: 0 !important;
+    font-weight: 300 !important;
+}
+
+.parallax-5 {
+    background: url('../images/parallax-5.png') repeat fixed;
+    background-size: 500px 441px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
 
 /* #External page project
 ================================================== */

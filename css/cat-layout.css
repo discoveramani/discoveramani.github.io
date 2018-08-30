@@ -36,6 +36,18 @@ Table of contents
 
 /* My Edits ~Abhishek Patel */
 
+.parallax-5 {
+    background: url('../images/parallax-5.png') repeat fixed;
+    background-size: 500px 441px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
 .journal-det {
     position: absolute;
     width: 50%;
