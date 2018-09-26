@@ -1059,7 +1059,8 @@ ul.slimmenu.collapsed li>ul {
 }
 
 .team-wrap img {
-    width: 100%;
+    /*width: 100%;*/
+    height: 500px;
     display: block;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
@@ -1154,7 +1155,7 @@ ul.slimmenu.collapsed li>ul {
     .parallax-1 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -1162,7 +1163,7 @@ ul.slimmenu.collapsed li>ul {
     .parallax-1 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -1809,7 +1810,7 @@ figure.youtube a img {
     .parallax-2 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -1817,7 +1818,7 @@ figure.youtube a img {
     .parallax-2 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -2076,7 +2077,7 @@ figure.youtube a img {
     .parallax-3 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -2084,7 +2085,7 @@ figure.youtube a img {
     .parallax-3 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
