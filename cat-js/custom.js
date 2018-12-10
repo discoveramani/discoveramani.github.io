@@ -6,7 +6,7 @@
 
     Royal_Preloader.config({
         mode: 'logo',
-        logo: 'images/logo-white.svg',
+        logo: 'images/logo-white-original.svg',
         logo_size: [292, 257],
         showProgress: true,
         showPercentage: true,

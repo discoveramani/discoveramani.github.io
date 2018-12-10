@@ -626,7 +626,7 @@ body.royal_preloader {
     width: 114px;
     height: 72px;
     top: 32px;
-    background: url('../images/logo-small-white.png') no-repeat center center;
+    background: url('../images/logo-small-white-new.svg') no-repeat center center;
     background-size: 114px 72px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -1335,7 +1335,7 @@ ul.slimmenu.collapsed li>ul {
     .parallax-1 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -1343,7 +1343,7 @@ ul.slimmenu.collapsed li>ul {
     .parallax-1 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
     #main-slider {
         position: relative;
@@ -1998,7 +1998,7 @@ figure.youtube a img {
     .parallax-2 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -2006,7 +2006,7 @@ figure.youtube a img {
     .parallax-2 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -2265,7 +2265,7 @@ figure.youtube a img {
     .parallax-3 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
@@ -2273,7 +2273,7 @@ figure.youtube a img {
     .parallax-3 {
         background-size: cover;
         background-attachment: scroll;
-        background-position: top center!important;
+        background-position: top center !important;
     }
 }
 
