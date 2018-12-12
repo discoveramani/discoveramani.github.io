@@ -105,7 +105,8 @@
             navigation: false,
             pagination: false,
             autoPlay: 3000,
-            slideSpeed: 300
+            slideSpeed: 300,
+
         });
 
         //Parallax
@@ -127,13 +128,16 @@
             maxWidth: 1400,
             maxHeight: 800,
             fitToView: true,
-            width: '80%',
-            height: '80%',
+            width: '100%',
+            height: '100%',
             autoSize: false,
             closeClick: false,
             openEffect: 'elastic',
-            closeEffect: 'none'
+            closeEffect: 'none',
+
         });
+
+
 
 
         //Home Carousel
