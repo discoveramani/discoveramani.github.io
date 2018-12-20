@@ -2441,7 +2441,7 @@ figure.youtube a img {
     display: block;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 18px;
     letter-spacing: 2px;
     text-align: left;
@@ -2531,7 +2531,7 @@ figure.youtube a img {
     display: block;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 18px;
     letter-spacing: 2px;
     text-align: right;
@@ -2920,6 +2920,13 @@ animated buttons - animate the text inside prev and next buttons
 
 /* #Post
 ================================================== */
+
+@media only screen and (max-width: 500px) {
+    .post h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
 
 #owl-post-slider {
     position: relative;

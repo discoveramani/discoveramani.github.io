@@ -7,13 +7,17 @@ ul.slimmenu li a.mPS2id-highlight,
 .des-programs-author.right p span,
 .des-programs-author.right .link,
 .services-wrap h5 span,
-.journal-det .link,
-.journal-det-right .link,
 .list-social-team li.icon-team a:hover,
 .project-page a:hover,
 .name-aut-replay a,
 .link-recents a:hover {
     color: #cfa144;
+}
+
+.journal-det .link,
+.journal-det-right .link {
+    color: #312307;
+    font-weight: 600;
 }
 
 .cd-pagination .current {
