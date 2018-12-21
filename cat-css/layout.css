@@ -1155,7 +1155,7 @@ body.royal_preloader {
     width: 114px;
     height: 72px;
     top: 32px;
-    background: url('../images/logo-small-white.png') no-repeat center center;
+    background: url('../images/logo-small-white-new.svg') no-repeat center center;
     background-size: 114px 72px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -1202,7 +1202,7 @@ ul.slimmenu li ul {
     height: 72px;
     z-index: 10000;
     top: 25px;
-    background: url('../images/logo-small-white.png') no-repeat center center;
+    background: url('../images/logo-small-white-new.svg') no-repeat center center;
     background-size: 114px 72px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -4094,14 +4094,14 @@ figure.youtube a img {
         width: 80px;
         height: 50px;
         top: 20px;
-        background: url('../images/logo-small-white.png') no-repeat center center;
+        background: url('../images/logo-small-white-new.svg') no-repeat center center;
         background-size: 80px 50px;
     }
     .cbp-af-header.cbp-af-header-shrink .logo {
         width: 80px;
         height: 50px;
         top: 20px;
-        background: url('../images/logo-small-white.png') no-repeat center center;
+        background: url('../images/logo-small-white-new.svg') no-repeat center center;
         background-size: 80px 50px;
         -webkit-transition: all 0.5s ease-out;
         -moz-transition: all 0.5s ease-out;
